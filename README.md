@@ -15,11 +15,21 @@ My SkiaSharp-based Single Source Lyric Music Player Test
 - OpenTK (for OpenGL and GLFW Windowing)
 - SkiaSharp (for Drawing)
 - ManagedBass (for Audio Player)
+- ILRepack (to Repack DLLs into one)
+
+### About the `UnityPlayer.dll`
+This project did not have any affiliation with Unity Engine at all, this DLL actually contains repackaged libraries
+of this project when is built using `Project Solution (.sln)` instead of the `C# Project File (.csproj)`.
+
+You can change this DLL name by modifying the `DLLMerge.cs` (the post-build C# script). 
+
+Actually, Modification to this post build script is mandatory if you uses the `Project Solution`, as ILRepack 
+binary files have different paths between version and platform.
 
 ## Usage
 ```Warning : This project is mostly contains hardcoded source. To modify most of the functionality, edit the code then recompile```
 
-- Edit the code, Build it.
+- Edit the code and the post-build script as you need it, then build it.
 - Copy the `Lyrica_Data` directory to the same directory as the compiled binary, 
 - Modify the content of the `Lyrica_Data` directory to your heart content.
 - Run the compiled binary
