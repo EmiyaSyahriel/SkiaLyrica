@@ -6,6 +6,7 @@ My SkiaSharp-based Single Source Lyric Music Player Test
 - .NET 5.0 SDK & Runtime
 - .NET scripting tool (`dotnet script`) to merge the DLL into one
 - [BASS Library](http://www.un4seen.com/) for your target platform
+- ILRepack
 
 ### Compilation
 - VS2019 way : Open the solution via Visual Studio 2019 the Compile
@@ -17,7 +18,7 @@ My SkiaSharp-based Single Source Lyric Music Player Test
 - ManagedBass (for Audio Player)
 - ILRepack (to Repack DLLs into one)
 
-### About the `UnityPlayer.dll`
+### About the `UnityPlayer.dll` in this project
 This project did not have any affiliation with Unity Engine at all, this DLL actually contains repackaged libraries
 of this project when is built using `Project Solution (.sln)` instead of the `C# Project File (.csproj)`.
 
