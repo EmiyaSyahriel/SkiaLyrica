@@ -1,6 +1,9 @@
 # SkiaLyrica
 My SkiaSharp-based Single Source Lyric Music Player Test
 
+## Showcase 
+[![Youtube Video](https://img.youtube.com/vi/7gT2NbB__-M/0.jpg)](https://www.youtube.com/watch?v=7gT2NbB__-M)
+
 ## Build
 ### Pre-requiste
 - .NET 5.0 SDK & Runtime
